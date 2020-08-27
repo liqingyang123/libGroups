@@ -300,7 +300,7 @@
 
 //写数据
 -(void)writeData:(blacksValueForCharacteristic)characteristic withByte:(NSData *)adata{
-    BDLog(@"发送值=%@",[NSData convertDataToHexStr:adata]);
+    //BDLog(@"发送值=%@",[NSData convertDataToHexStr:adata]);
     if (self.discoveredPeripheral.state != CBPeripheralStateConnected || self.mystatus != BleConnectStatus_Connect)
     { return; }
     if ([self.discoveredPeripheral respondsToSelector:@selector(readRSSI)]) {

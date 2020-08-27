@@ -8,6 +8,11 @@
 
 #import "DLViewController.h"
 
+// Example 用来测试库
+#import "BDBLECenterServiceManager.h"  //
+#import "BDConst.h"                    // 引入头文件，测试能否正常使用（在模拟器运行一下即可，build需要证书）
+
+
 @interface DLViewController ()
 
 @end
@@ -18,6 +23,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning
