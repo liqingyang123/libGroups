@@ -10,12 +10,12 @@
 #endif
 #endif
 
+#import "BDConst.h"
+#import "NSTimer+BDTimer.h"
 #import "BDBLECenterServiceManager.h"
 #import "BLEModel.h"
 #import "BLENotificationKeys.h"
 #import "NSData+ConvertData.h"
-#import "BDConst.h"
-#import "NSTimer+BDTimer.h"
 
 FOUNDATION_EXPORT double DemoLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char DemoLibVersionString[];
