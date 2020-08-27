@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DemoLib' # 私有库名称，pod search name 可查看是否存在
-  s.version          = '0.1.6' # 私有库版本，和 git tag 保持一致
+  s.version          = '0.1.9' # 私有库版本，和 git tag 保持一致
   s.summary          = '搭建私有库' # 摘要
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here. # 详细描述
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'DemoLib/Classes/**/*' #(*.{h,m}匹配所有.h.m文件) 一般把需要使用的文件放在 "库名/Class/" 路径下
+  s.source_files = 'DemoLib/Classes/{const,timerCategory}/*.{h,m}' #(*.{h,m}匹配所有.h.m文件) 一般把需要使用的文件放在 "库名/Class/" 路径下
   
   # s.resource_bundles = {                # 图片资源
   #   'DemoLib' => ['DemoLib/Assets/*.png']
@@ -50,6 +50,7 @@ TODO: Add long description of the pod here. # 详细描述
   # s.dependency 'AFNetworking', '~> 2.3'  # 依赖三方库
   
   # 如果库中有很多独立的功能，只想用其中一个/几个，那么就不必 pod 整个库，可以声明 subspec“子库”
+  # pod 父库，也会默认pod所有子库 (可以像 AFNetworking 那样处理，最外层用一个 .h 文件引入所有子库)
    s.subspec 'DemoLib_BLE' do |ss|
        ss.source_files = 'DemoLib/Classes/ble/*.{h,m}'
    end
