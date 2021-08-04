@@ -1,0 +1,6 @@
+framework module LQYDefine {
+  umbrella header "LQYDefine.h"
+
+  export *
+  module * { export * }
+}

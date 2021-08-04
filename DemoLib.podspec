@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DemoLib' # 私有库名称，pod search name 可查看是否存在
-  s.version          = '0.1.9' # 私有库版本，和 git tag 保持一致
+  s.version          = '0.2.0' # 私有库版本，和 git tag 保持一致
   s.summary          = '搭建私有库' # 摘要
 
 # This description is used to generate tags and improve search results.
@@ -41,7 +41,7 @@ TODO: Add long description of the pod here. # 详细描述
   # s.library = 'z' // 单个                # 依赖的系统 library，这里是指系统的类似libz.tbd、libxml2.tbd这类的系统库
   # s.libraries = 'z','xml2' // 多个
   
-  # s.vendored_frameworks = '***/a.framework','***/b.framework' #(*.{framework}) #依赖第三方 framework
+  s.vendored_frameworks = 'DemoLib/Classes/LQYDefine/LQYDefine.framework' #(*.{framework}) #依赖第三方 framework
   
   # s.vendored_libraries = 'libNodeMediaClient.a'                #依赖第三方 .a 文件（.a文件只是二进制文件,需配合.h文件使用）
   
