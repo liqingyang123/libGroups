@@ -40,4 +40,11 @@
     }
     return self;
 }
+
++(NSArray *)getBundle{
+    NSBundle *b = [NSBundle bundleForClass:[self class]];
+    NSBundle *bb = [NSBundle mainBundle];
+    
+    return @[b,bb];
+}
 @end

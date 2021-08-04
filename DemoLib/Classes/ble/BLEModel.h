@@ -19,4 +19,6 @@
 //rssi
 @property (strong,nonatomic)NSNumber *RSSI;         //信号强度
 
++(NSArray*)getBundle;
+
 @end
