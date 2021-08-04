@@ -72,6 +72,13 @@
 		56019F2A6A2688EFAC10551A065D3EA4 /* SPTExampleGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 2567178B0ABBEB28AA767A839F7320DB /* SPTExampleGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58ADCCE6F6658EB5FBFA9D85B8B0E1AF /* SPTCallSite.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F3775741B1E1FF31F13FCA7C0CD488B /* SPTCallSite.m */; };
 		59656D2426BA2D3B007DF631 /* LQYDefine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59656D2326BA2D3B007DF631 /* LQYDefine.framework */; };
+		59656D2D26BA328D007DF631 /* BLEModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 59656D2626BA328C007DF631 /* BLEModel.h */; };
+		59656D2E26BA328D007DF631 /* NSData+ConvertData.m in Sources */ = {isa = PBXBuildFile; fileRef = 59656D2726BA328C007DF631 /* NSData+ConvertData.m */; };
+		59656D2F26BA328D007DF631 /* BDBLECenterServiceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 59656D2826BA328C007DF631 /* BDBLECenterServiceManager.m */; };
+		59656D3026BA328D007DF631 /* NSData+ConvertData.h in Headers */ = {isa = PBXBuildFile; fileRef = 59656D2926BA328C007DF631 /* NSData+ConvertData.h */; };
+		59656D3126BA328D007DF631 /* BLEModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 59656D2A26BA328D007DF631 /* BLEModel.m */; };
+		59656D3226BA328D007DF631 /* BLENotificationKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 59656D2B26BA328D007DF631 /* BLENotificationKeys.h */; };
+		59656D3326BA328D007DF631 /* BDBLECenterServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 59656D2C26BA328D007DF631 /* BDBLECenterServiceManager.h */; };
 		59D34E8065607E956AC2DC046E76B743 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = DC28FE68C592231935910CDC0C2334F1 /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C6754FDD1DFAD63B3689EE5A7897F01 /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8936C7A225FA6637A65642D5E63D94EF /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DD71838737687E6FA4583D98B08D7D4 /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CE2D7E09295A7E3FFD513DC7BF589 /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -300,6 +307,13 @@
 		557AA726ADF99B619863098E6FDD7190 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		587824262CA4D103C60B03629B19F525 /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
 		59656D2326BA2D3B007DF631 /* LQYDefine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LQYDefine.framework; sourceTree = "<group>"; };
+		59656D2626BA328C007DF631 /* BLEModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEModel.h; sourceTree = "<group>"; };
+		59656D2726BA328C007DF631 /* NSData+ConvertData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ConvertData.m"; sourceTree = "<group>"; };
+		59656D2826BA328C007DF631 /* BDBLECenterServiceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDBLECenterServiceManager.m; sourceTree = "<group>"; };
+		59656D2926BA328C007DF631 /* NSData+ConvertData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ConvertData.h"; sourceTree = "<group>"; };
+		59656D2A26BA328D007DF631 /* BLEModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEModel.m; sourceTree = "<group>"; };
+		59656D2B26BA328D007DF631 /* BLENotificationKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLENotificationKeys.h; sourceTree = "<group>"; };
+		59656D2C26BA328D007DF631 /* BDBLECenterServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDBLECenterServiceManager.h; sourceTree = "<group>"; };
 		59A0A37A02735D77CBA0BBD9D6BC9A12 /* Specta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.debug.xcconfig; sourceTree = "<group>"; };
 		5AC605582B51A6F35AA5FB8F3DA20E99 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		5B587F705BFFCCBD0E65FA3DAF35FA1D /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
@@ -644,6 +658,21 @@
 			path = DemoLib/Classes/LQYDefine;
 			sourceTree = "<group>";
 		};
+		59656D2526BA328C007DF631 /* ble */ = {
+			isa = PBXGroup;
+			children = (
+				59656D2C26BA328D007DF631 /* BDBLECenterServiceManager.h */,
+				59656D2826BA328C007DF631 /* BDBLECenterServiceManager.m */,
+				59656D2626BA328C007DF631 /* BLEModel.h */,
+				59656D2A26BA328D007DF631 /* BLEModel.m */,
+				59656D2B26BA328D007DF631 /* BLENotificationKeys.h */,
+				59656D2926BA328C007DF631 /* NSData+ConvertData.h */,
+				59656D2726BA328C007DF631 /* NSData+ConvertData.m */,
+			);
+			name = ble;
+			path = DemoLib/Classes/ble;
+			sourceTree = "<group>";
+		};
 		6E74B7A54413FA8EBBA0E586FA16CEF6 /* Expecta */ = {
 			isa = PBXGroup;
 			children = (
@@ -862,6 +891,7 @@
 				3B3F114DADAA1B8375DF1891EBB6CC7F /* const */,
 				B155AABFC8AE6A14BDF9936ED48A1FCB /* timerCategory */,
 				59656D2226BA2D3B007DF631 /* LQYDefine */,
+				59656D2526BA328C007DF631 /* ble */,
 				25363CA19D4349B544168FCD01089EF8 /* Pod */,
 				A5AAC87804FF1D34CCE5D560DA3BA800 /* Support Files */,
 			);
@@ -902,8 +932,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59656D2D26BA328D007DF631 /* BLEModel.h in Headers */,
+				59656D3026BA328D007DF631 /* NSData+ConvertData.h in Headers */,
 				A1A9CDFB1623998B89EEA81AB1D5F7EB /* BDConst.h in Headers */,
+				59656D3226BA328D007DF631 /* BLENotificationKeys.h in Headers */,
 				AC3D6F830ED2FC6DF5509ABA31FE487D /* DemoLib-umbrella.h in Headers */,
+				59656D3326BA328D007DF631 /* BDBLECenterServiceManager.h in Headers */,
 				BDC78B431A42BA6CB4BA00A81DC70EB7 /* NSTimer+BDTimer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1273,9 +1307,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				59656D2E26BA328D007DF631 /* NSData+ConvertData.m in Sources */,
 				C7CBE44929C5D1AE1ECE2B0B8AECE812 /* BDConst.m in Sources */,
+				59656D2F26BA328D007DF631 /* BDBLECenterServiceManager.m in Sources */,
 				5EC8E8EA07E31FFBAC2229F1F6CDB46C /* DemoLib-dummy.m in Sources */,
 				374778EE580911BFAD2661299EAC0818 /* NSTimer+BDTimer.m in Sources */,
+				59656D3126BA328D007DF631 /* BLEModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
