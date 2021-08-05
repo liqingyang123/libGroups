@@ -79,7 +79,7 @@
 		59656D3126BA328D007DF631 /* BLEModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 59656D2A26BA328D007DF631 /* BLEModel.m */; };
 		59656D3226BA328D007DF631 /* BLENotificationKeys.h in Headers */ = {isa = PBXBuildFile; fileRef = 59656D2B26BA328D007DF631 /* BLENotificationKeys.h */; };
 		59656D3326BA328D007DF631 /* BDBLECenterServiceManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 59656D2C26BA328D007DF631 /* BDBLECenterServiceManager.h */; };
-		59656D6126BA3CEC007DF631 /* DemoLib.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 59656D6026BA3CEC007DF631 /* DemoLib.bundle */; };
+		59656D6126BA3CEC007DF631 /* ble.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 59656D6026BA3CEC007DF631 /* ble.bundle */; };
 		59D34E8065607E956AC2DC046E76B743 /* EXPMatchers+conformTo.h in Headers */ = {isa = PBXBuildFile; fileRef = DC28FE68C592231935910CDC0C2334F1 /* EXPMatchers+conformTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5C6754FDD1DFAD63B3689EE5A7897F01 /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8936C7A225FA6637A65642D5E63D94EF /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DD71838737687E6FA4583D98B08D7D4 /* EXPMatchers+beInTheRangeOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E9CE2D7E09295A7E3FFD513DC7BF589 /* EXPMatchers+beInTheRangeOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -315,7 +315,7 @@
 		59656D2A26BA328D007DF631 /* BLEModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLEModel.m; sourceTree = "<group>"; };
 		59656D2B26BA328D007DF631 /* BLENotificationKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLENotificationKeys.h; sourceTree = "<group>"; };
 		59656D2C26BA328D007DF631 /* BDBLECenterServiceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDBLECenterServiceManager.h; sourceTree = "<group>"; };
-		59656D6026BA3CEC007DF631 /* DemoLib.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DemoLib.bundle; sourceTree = "<group>"; };
+		59656D6026BA3CEC007DF631 /* ble.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ble.bundle; sourceTree = "<group>"; };
 		59A0A37A02735D77CBA0BBD9D6BC9A12 /* Specta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Specta.debug.xcconfig; sourceTree = "<group>"; };
 		5AC605582B51A6F35AA5FB8F3DA20E99 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		5B587F705BFFCCBD0E65FA3DAF35FA1D /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
@@ -670,7 +670,7 @@
 				59656D2B26BA328D007DF631 /* BLENotificationKeys.h */,
 				59656D2926BA328C007DF631 /* NSData+ConvertData.h */,
 				59656D2726BA328C007DF631 /* NSData+ConvertData.m */,
-				59656D6026BA3CEC007DF631 /* DemoLib.bundle */,
+				59656D6026BA3CEC007DF631 /* ble.bundle */,
 			);
 			name = ble;
 			path = DemoLib/Classes/ble;
@@ -1246,7 +1246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59656D6126BA3CEC007DF631 /* DemoLib.bundle in Resources */,
+				59656D6126BA3CEC007DF631 /* ble.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
