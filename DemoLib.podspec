@@ -33,7 +33,10 @@ TODO: Add long description of the pod here. # 详细描述
   s.source_files = 'DemoLib/Classes/{const,timerCategory}/*.{h,m}' #(*.{h,m}匹配所有.h.m文件) 一般把需要使用的文件放在 "库名/Class/" 路径下
   
   # 依赖的资源（）
-  s.resources = {'DemoLib/Classes/ble/*.bundle'}
+  s.resources = {
+    'DemoLib' => ['DemoLib/Classes/ble/*.bundle']
+  
+  }
   s.resource_bundles = {
      'DemoLib' => ['DemoLib/Assets/*.png']
   }
