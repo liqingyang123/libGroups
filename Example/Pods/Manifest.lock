@@ -1,7 +1,7 @@
 PODS:
-  - DemoLib (0.1.7):
-    - DemoLib/DemoLib_BLE (= 0.1.7)
-  - DemoLib/DemoLib_BLE (0.1.7)
+  - DemoLib (0.2.5):
+    - DemoLib/DemoLib_BLE (= 0.2.5)
+  - DemoLib/DemoLib_BLE (0.2.5)
   - Expecta (1.0.6)
   - "Expecta+Snapshots (3.1.1)":
     - Expecta (~> 1.0)
@@ -12,6 +12,7 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
+  - Masonry (1.1.0)
   - Specta (1.0.7)
 
 DEPENDENCIES:
@@ -19,6 +20,7 @@ DEPENDENCIES:
   - Expecta
   - "Expecta+Snapshots"
   - FBSnapshotTestCase
+  - Masonry
   - Specta
 
 SPEC REPOS:
@@ -26,6 +28,7 @@ SPEC REPOS:
     - Expecta
     - "Expecta+Snapshots"
     - FBSnapshotTestCase
+    - Masonry
     - Specta
 
 EXTERNAL SOURCES:
@@ -33,12 +36,13 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  DemoLib: 5a84d8f77039a438cbd5c5ba238f40875df4db18
+  DemoLib: e7a518c2ad516037a1cf757138baaf6f3d302bbd
   Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
   "Expecta+Snapshots": dcff217eef506dabd6dfdc7864ea2da321fafbb8
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
 
-PODFILE CHECKSUM: 56eb3a123281a5d55d8cefc078aba35b9e6f072c
+PODFILE CHECKSUM: 9a2832e8ca15875203443f2b457a8a4dc3c864a3
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.12.0

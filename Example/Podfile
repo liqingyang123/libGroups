@@ -4,6 +4,7 @@ platform :ios, '8.0'
 
 target 'DemoLib_Example' do
   pod 'DemoLib', :path => '../'
+  pod 'Masonry'
 
   target 'DemoLib_Tests' do
     inherit! :search_paths
