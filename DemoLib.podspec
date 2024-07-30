@@ -36,9 +36,11 @@ TODO: Add long description of the pod here. # 详细描述
   #这里的路径是项目本地路径，去掉项目第一层目录
   s.source_files = 'DemoLib/Classes/{const,timerCategory}/*.{h,m}'
   
+  #s.prefix_header_file = 'DemoLib/Classes/xxx.pch'  # 预编译头文件
+  
   # 依赖的资源
-  s.resources = ['DemoLib/Classes/ble/*.bundle']  # []多个资源用逗号隔开，resources只是简单的拷贝资源到 xxxx/AppName.app 目录下
-  s.resource_bundles = { # resource_bundles 会把资源打成 bundle 包，DemoLib.bundle 也会拷贝到 xxxx/AppName.app 目录下
+  s.resources = ['DemoLib/Classes/ble/*.bundle']  # []多个资源用逗号隔开，resources只是简单的拷贝资源到 xxxx/AppName.app 目录下（pod目录下有）
+  s.resource_bundles = { # resource_bundles 会把资源打成 bundle 包，DemoLib.bundle 也会拷贝到 xxxx/AppName.app 目录下（pod目录下没有）
      'DemoLib' => ['DemoLib/Assets/*.png']
   }
 
@@ -53,7 +55,8 @@ TODO: Add long description of the pod here. # 详细描述
   
   # s.public_header_files = 'Pod/Classes/**/*.h'  # 如果拖⼊的是第三⽅.a库，有.h头⽂件的，.h文件⽤ public_header_files 引入
   
-  # 依赖三方开源库,Example测试的话需要在Podfile中添加，然后pod install一下 (pod私有库会自动pod依赖的开源库)
+  # 依赖三方开源库 (pod私有库会自动pod依赖的开源库)
+  # 如果是本地库，也是可以依赖三方开源库的、也可依赖其他本地库(不过依赖本地库貌似有前提，本地库必须已经被pod，否则依赖会报错，🤔这样看来依赖本地库没什么卵用)
   # s.dependency 'AFNetworking', '~> 2.3'
   
   # 如果库中有很多独立的功能，只想用其中一个/几个，那么就不必 pod 整个库，可以声明 subspec“子库”

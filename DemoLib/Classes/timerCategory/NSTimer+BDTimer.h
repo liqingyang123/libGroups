@@ -21,4 +21,6 @@ typedef void(^CallBackTimer)(NSTimer *timer);
  @return 返回一个NSTimer对象
  */
 + (NSTimer *)scheduledTimerWithTimeInterval:(NSTimeInterval) seconds repeats:(BOOL)repeats CallBackTimer:(CallBackTimer)block;
+
++ (void)testLQYDefine;
 @end

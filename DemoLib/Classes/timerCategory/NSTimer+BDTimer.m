@@ -8,6 +8,7 @@
 
 #import "NSTimer+BDTimer.h"
 
+#import <LQYDefine/LQYDefine.h>
 
 @implementation NSTimer (BDTimer)
 
@@ -18,7 +19,14 @@
 
 
 +(void)cusAction:(NSTimer *)timer{
+   
     CallBackTimer block = timer.userInfo;
     block(timer);
+}
+
++(void)testLQYDefine{
+    [LQYPrint printSourceFile1];
+    [LQYPrint printSourceFile2];
+    [LQYPrint printSourceFile3];
 }
 @end
